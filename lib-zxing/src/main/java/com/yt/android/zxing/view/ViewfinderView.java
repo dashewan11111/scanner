@@ -48,14 +48,14 @@ import android.view.animation.AccelerateDecelerateInterpolator;
 public final class ViewfinderView extends View {
 
     private static final int ANIMATOR_DURATION = 2000;
-    private static final int DEFAULT_STROKWIDTH = 10;
+    private static final int DEFAULT_STROKWIDTH = 5;
     private static final int DEFAULT_CORNORLENGTH = 50;
     private final int[] DEFAULT_LINECOLORS = {
             Color.argb(10, 0, 255, 0),
             Color.argb(30, 0, 255, 0),
             Color.argb(50, 0, 255, 0),
             Color.argb(70, 0, 255, 0),
-            Color.argb(90, 0, 255, 0),
+            Color.argb(255, 0, 255, 0),
             Color.argb(70, 0, 255, 0),
             Color.argb(50, 0, 255, 0),
             Color.argb(30, 0, 255, 0),

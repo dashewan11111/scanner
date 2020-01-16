@@ -16,8 +16,7 @@
 
 package com.google.zxing.qrcode.detector;
 
-import android.os.Build;
-import android.support.annotation.RequiresApi;
+import androidx.annotation.RequiresApi;
 
 import com.google.zxing.DecodeHintType;
 import com.google.zxing.NotFoundException;
@@ -28,8 +27,6 @@ import com.google.zxing.common.BitMatrix;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.ListIterator;
